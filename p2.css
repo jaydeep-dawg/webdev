@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: content-box;
+}
+header{
+    background-color: rgb(161, 171, 255);
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    font-size: 50px;
+}
+nav{
+    font-size:xx-large;
+    padding: 20px;
+}
+.main{
+    background: url(https://tse4.mm.bing.net/th/id/OIP.zcvrHUrRYUk7fbNifctY9gHaE8?rs=1&pid=ImgDetMain&o=7&rm=3) center/cover;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 200;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p{
+    padding: 50px;
+    color: white;
+}
+.button{
+    background-color:rgb(196, 196, 236);;
+    border: 5px solid  rgb(190, 196, 250);
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100x;
+    width: 350px;
+    color:white;
+}
+.button:hover{
+      background-color: rgb(130, 150, 204);
+      font-size: smaller;
+}
+a:hover{
+    color:rgb(111, 113, 243);
+    text-decoration :underline;
+}
+h1:hover{
+    color:rgb(111, 113, 243);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;;
+}
